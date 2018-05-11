@@ -21,7 +21,7 @@ $(function () {
     $.ajax({
 
         //CP3. Complete Ajax code to GET the selected pin (pinid)  
-        url: 'https://soaproductapi.herokuapp.com/products/'+productid,
+        url: 'https://soaproductapi.herokuapp.com/products/'+ productid,
         type: 'GET'
 
 
@@ -50,7 +50,7 @@ $(function () {
         $.ajax({
 
             // CP4. Complete Ajax code to UPDATE the selected pin (pinid)  
-            url: 'https://soaproductapi.herokuapp.com/products/id'+productid,
+            url: 'https://soaproductapi.herokuapp.com/products/'+productid,
             type: 'PUT',
             data: formdata
 
